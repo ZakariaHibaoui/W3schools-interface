@@ -1,0 +1,144 @@
+header div{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px   10px 15px 10px;
+}
+header div h1{
+    text-transform: lowercase;
+}
+header div div{
+    display: flex;
+    align-items: center;
+}
+header button{
+    height: 30px;
+    border: 0px;
+    color: white;
+    background-color: rgb(33,188,33);
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+span{
+    color: rgb(33,188,33);
+}
+header h2{
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-family: 'new tegomin',serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+.barre {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+    
+
+
+}
+.header nav  {
+    display: flex;
+    align-items: center;
+
+}
+
+    
+
+.header a {
+    
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 20px 30px 30px 20px;
+    margin: 10px 0px  ;
+    
+    transition-duration: 1s;
+}
+.barre a:hover{
+    color: grey;
+    background-color: white;
+    margin: 0px 5px;
+    margin-left: 10px;
+}
+.courses{
+    top:20px ;
+}
+
+.actif{
+    color: white;
+    background-color: rgb(33,188,33);
+}
+main{
+    display: flex;
+}
+.section1{
+    width: 30%;
+    background-color: rgba(243,243,243,0.993);
+}
+.section1 div{
+    display: flex;
+    flex-direction: column;
+}
+.section1 ul{
+    list-style-type: none;
+}
+.section1 a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    
+    
+}
+.section1 h3,.section1 a{
+    padding-left: auto;
+    text-transform: none;
+}
+.section2{
+    width: 70%;
+}
+.title{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.div1 button{
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+    background-color: rgb(33,188,33);
+    border-radius: 5px;
+}
+.div2{
+    display: flex;
+    background-color: rgb(194,255,194);
+    padding: 50px 20px;
+    align-items: center;
+    margin: 30px 0px;
+}
+   
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buu{
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+    background-color: rgb(33,188,33);
+    border-radius: 5px;
+}
